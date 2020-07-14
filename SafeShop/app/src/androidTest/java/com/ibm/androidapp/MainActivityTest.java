@@ -38,8 +38,7 @@ public class MainActivityTest {
     public void setUp() throws Exception {
         activity = activityTestRule.getActivity();
     }
-
-
+    
     @Test
     public void testLaunch() throws InterruptedException {
         final List<Boolean> succeededSet = new ArrayList<>(1);
