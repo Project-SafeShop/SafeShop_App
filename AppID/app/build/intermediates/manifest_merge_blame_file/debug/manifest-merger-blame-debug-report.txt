@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ibm.cloud.appid"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:3:5-66
+11-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:3:22-64
+12
+13    <meta-data
+13-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:21:5-103
+14        android:name="com.facebook.sdk.ApplicationId"
+14-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:21:16-61
+15        android:value="@string/facebook_app_id" />
+15-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:21:62-101
+16
+17    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+17-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:22:5-70
+17-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:22:22-68
+18    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+18-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:23:5-73
+18-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:23:22-71
+19
+20    <application
+20-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:4:5-20:19
+21        android:allowBackup="true"
+21-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:4:18-44
+22        android:debuggable="true"
+23        android:label="@string/app_name"
+23-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:5:9-41
+24        android:supportsRtl="true"
+24-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:5:42-68
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:5:69-100
+27        <activity
+27-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:6:9-11:20
+28            android:name="com.ibm.cloud.appid.android.sample.appid.StartupActivity"
+28-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:6:19-50
+29            android:screenOrientation="portrait" >
+29-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:6:51-87
+30            <intent-filter>
+30-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:7:13-10:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:8:17-68
+31-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:8:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:9:17-76
+33-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:9:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:12:9-92
+37            android:name="com.ibm.cloud.appid.android.sample.appid.AfterLoginActivity"
+37-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:12:19-53
+38            android:screenOrientation="portrait" />
+38-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:12:54-90
+39        <activity
+39-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:13:9-87
+40            android:name="com.ibm.cloud.appid.android.sample.appid.TokenActivity"
+40-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:13:19-48
+41            android:screenOrientation="portrait" />
+41-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:13:49-85
+42        <activity
+42-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:14:9-90
+43            android:name="com.ibm.cloud.appid.android.sample.appid.UserInfoActivity"
+43-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:14:19-51
+44            android:screenOrientation="portrait" />
+44-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:14:52-88
+45        <activity
+45-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:15:9-86
+46            android:name="com.ibm.cloud.appid.android.sample.appid.MainActivity"
+46-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:15:19-47
+47            android:screenOrientation="portrait" />
+47-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:15:48-84
+48        <activity
+48-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:16:9-19:119
+49            android:name="com.facebook.FacebookActivity"
+49-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:19:13-57
+50            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+50-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:17:13-96
+51            android:label="@string/app_name"
+51-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:18:13-45
+52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+52-->C:\Users\nisar\AndroidStudioProjects\AppID\app\src\main\AndroidManifest.xml:19:58-117
+53        <activity android:name="com.ibm.cloud.appid.android.internal.authorizationmanager.ChromeTabActivity" >
+53-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:16:9-22:20
+53-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:16:19-109
+54            <intent-filter>
+54-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:17:13-21:29
+55                <action android:name="com.ibm.cloud.appid.POST_AUTHORIZATION_INTENT" />
+55-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:18:17-91
+55-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:18:25-88
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:20:17-76
+57-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:20:27-73
+58            </intent-filter>
+59        </activity>
+60        <activity android:name="com.ibm.cloud.appid.android.internal.authorizationmanager.RedirectUriReceiverActivity" >
+60-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:23:9-32:20
+60-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:23:19-119
+61            <intent-filter>
+61-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:24:13-31:29
+62                <action android:name="android.intent.action.VIEW" />
+62-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:25:17-69
+62-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:25:25-66
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:20:17-76
+64-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:20:27-73
+65                <category android:name="android.intent.category.BROWSABLE" />
+65-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:28:17-78
+65-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:28:27-75
+66
+67                <data android:scheme="com.ibm.cloud.appid" />
+67-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:30:17-65
+67-->[com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1] C:\Users\nisar\.gradle\caches\transforms-2\files-2.1\e29fe8645d49b45c40b757e4a7b4ba61\appid-clientsdk-android-6.0.1\AndroidManifest.xml:30:23-62
+68            </intent-filter>
+69        </activity>
+70    </application>
+71
+72</manifest><!--
+73  ~ Copyright 2016, 2017 IBM Corp.
+74  ~ Licensed under the Apache License, Version 2.0 (the "License");
+75  ~ you may not use this file except in compliance with the License.
+76  ~ You may obtain a copy of the License at
+77  ~ http://www.apache.org/licenses/LICENSE-2.0
+78  ~ Unless required by applicable law or agreed to in writing, software
+79  ~ distributed under the License is distributed on an "AS IS" BASIS,
+80  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+81  ~ See the License for the specific language governing permissions and
+82  ~ limitations under the License.
+83-->
