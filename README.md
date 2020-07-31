@@ -31,25 +31,25 @@
 #### Images:
 
 <p align="center">
-  <img width="300" heigth="300" src="Images_for_readme/img1.PNG">
+  <img width="300" heigth="300" src="Images_for_readme/img1.png">
   <br>
   Realtime Update on FireBase
 </p>
 
 <p align="center">
-  <img width="300" heigth="300" src="Images_for_readme/img2.PNG">
+  <img width="300" heigth="300" src="Images_for_readme/img2.png">
   <br>
   Realtime Update on FireBase
 </p>
 
 <p align="center">
-  <img width="300" heigth="300" src="Images_for_readme/img3.PNG">
+  <img width="300" heigth="300" src="Images_for_readme/img3.png">
   <br>
   Realtime Update on FireBase
 </p>
 
 <p align="center">
-  <img width="300" heigth="300" src="Images_for_readme/img4.PNG">
+  <img width="300" heigth="300" src="Images_for_readme/img4.png">
   <br>
   Realtime Update on FireBase
 </p>
