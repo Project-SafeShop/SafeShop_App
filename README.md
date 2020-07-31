@@ -1,7 +1,11 @@
 # SafeShop_App
 Repository for Main App
 
-We present to you SafeShop App : Your safety is our first priority.
+# Why this app?
+
+1. The goal is to reduce the exposure to the virus by converting physical waiting lines to digital waiting lines.
+2. People will be able to use his app to order the necessary items from home and they will be allocated a pick-up time slot, later they can go and pick up the order safely at the given time.
+3. Currently, the app can be utilised by restaurants. We plan on adding functionality for various other businesses such as medical stores, grocery stores.
 
 # Features currently implemented :
 
