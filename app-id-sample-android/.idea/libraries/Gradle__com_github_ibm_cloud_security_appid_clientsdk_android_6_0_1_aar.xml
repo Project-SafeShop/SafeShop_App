@@ -1,8 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e29fe8645d49b45c40b757e4a7b4ba61/appid-clientsdk-android-6.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e29fe8645d49b45c40b757e4a7b4ba61/appid-clientsdk-android-6.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e044b8f4912abe045c059dd460545687/appid-clientsdk-android-6.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e044b8f4912abe045c059dd460545687/appid-clientsdk-android-6.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e044b8f4912abe045c059dd460545687/appid-clientsdk-android-6.0.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
