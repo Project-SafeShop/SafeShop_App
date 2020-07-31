@@ -27,3 +27,29 @@
 3. Install Java JDK and Android Studio.
 4. Implement flash screen.
 5. Implement Home Page, Cart Page, Menu Page and Payment Successful page using Fragments.
+
+#### Images:
+
+<p align="center">
+  <img width="300" heigth="300" src="Images_for_readme/img1.PNG">
+  <br>
+  Realtime Update on FireBase
+</p>
+
+<p align="center">
+  <img width="300" heigth="300" src="Images_for_readme/img2.PNG">
+  <br>
+  Realtime Update on FireBase
+</p>
+
+<p align="center">
+  <img width="300" heigth="300" src="Images_for_readme/img3.PNG">
+  <br>
+  Realtime Update on FireBase
+</p>
+
+<p align="center">
+  <img width="300" heigth="300" src="Images_for_readme/img4.PNG">
+  <br>
+  Realtime Update on FireBase
+</p>
