@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="371dp"
+        android:layout_height="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.089"
+        app:srcCompat="@drawable/separater" />
+
+    <TextView
+        android:id="@+id/menuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="40dp"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="361dp"
+        android:layout_height="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menuText"
+        app:layout_constraintVertical_bias="0.013"
+        app:srcCompat="@drawable/separater" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/joeyburgersymbol" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="274dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.056"
+        app:srcCompat="@drawable/joeyburgermenu" />
+
+    <ImageView
+        android:id="@+id/item1Image"
+        android:layout_width="362dp"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.058"
+        app:srcCompat="@drawable/menuitem1" />
+
+    <Button
+        android:id="@+id/plus1"
+        android:layout_width="22dp"
+        android:layout_height="37dp"
+        android:background="@color/red"
+        android:text="+"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/item1Image"
+        app:layout_constraintEnd_toEndOf="@+id/item1Image"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="@+id/item1Image"
+        app:layout_constraintTop_toTopOf="@+id/item1Image"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <ImageView
+        android:id="@+id/item2Image"
+        android:layout_width="362dp"
+        android:layout_height="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item1Image"
+        app:layout_constraintVertical_bias="0.059"
+        app:srcCompat="@drawable/menuitem2" />
+
+    <TextView
+        android:id="@+id/item1Text"
+        android:layout_width="36dp"
+        android:layout_height="45dp"
+        android:textSize="20dp"
+        android:textColor="@color/yellow"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/item1Image"
+        app:layout_constraintEnd_toStartOf="@+id/plus1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/minus1"
+        app:layout_constraintTop_toTopOf="@+id/item1Image"
+        app:layout_constraintVertical_bias="0.611"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/plus2"
+        android:layout_width="22dp"
+        android:layout_height="37dp"
+        android:background="@color/red"
+        android:text="+"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/item2Image"
+        app:layout_constraintEnd_toEndOf="@+id/item1Image"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="@+id/item2Image"
+        app:layout_constraintTop_toTopOf="@+id/item2Image"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <Button
+        android:id="@+id/minus2"
+        android:layout_width="22dp"
+        android:layout_height="37dp"
+        android:background="@color/red"
+        android:text="-"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/item2Image"
+        app:layout_constraintEnd_toEndOf="@+id/item2Image"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="@+id/item2Image"
+        app:layout_constraintTop_toTopOf="@+id/item2Image"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <ImageView
+        android:id="@+id/item3Image"
+        android:layout_width="361dp"
+        android:layout_height="59dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item2Image"
+        app:layout_constraintVertical_bias="0.103"
+        app:srcCompat="@drawable/menuitem3" />
+
+    <TextView
+        android:id="@+id/item3Text"
+        android:layout_width="36dp"
+        android:layout_height="45dp"
+        android:textSize="20dp"
+        android:textColor="@color/yellow"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/item3Image"
+        app:layout_constraintEnd_toEndOf="@+id/plus2"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/minus2"
+        app:layout_constraintTop_toTopOf="@+id/item3Image"
+        app:layout_constraintVertical_bias="0.0"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/plus3"
+        android:layout_width="22dp"
+        android:layout_height="37dp"
+        android:background="@color/red"
+        android:text="+"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/item3Image"
+        app:layout_constraintEnd_toEndOf="@+id/item1Image"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="@+id/item2Image"
+        app:layout_constraintTop_toTopOf="@+id/item3Image" />
+
+    <Button
+        android:id="@+id/minus3"
+        android:layout_width="22dp"
+        android:layout_height="37dp"
+        android:background="@color/red"
+        android:text="-"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/item3Image"
+        app:layout_constraintEnd_toEndOf="@+id/item3Image"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toStartOf="@+id/item3Image"
+        app:layout_constraintTop_toTopOf="@+id/item3Image" />
+
+    <ImageView
+        android:id="@+id/item4Image"
+        android:layout_width="358dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item3Image"
+        app:layout_constraintVertical_bias="0.155"
+        app:srcCompat="@drawable/menuitem4" />
+
+    <TextView
+        android:id="@+id/item4Text"
+        android:layout_width="36dp"
+        android:layout_height="45dp"
+        android:textSize="20dp"
+        android:textColor="@color/yellow"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/item4Image"
+        app:layout_constraintEnd_toEndOf="@+id/plus2"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/minus2"
+        app:layout_constraintTop_toTopOf="@+id/item4Image"
+        app:layout_constraintVertical_bias="0.0"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/plus4"
+        android:layout_width="22dp"
+        android:layout_height="37dp"
+        android:background="@color/red"
+        android:text="+"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/item4Image"
+        app:layout_constraintEnd_toEndOf="@+id/item1Image"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="@+id/item2Image"
+        app:layout_constraintTop_toTopOf="@+id/item4Image"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <Button
+        android:id="@+id/minus4"
+        android:layout_width="22dp"
+        android:layout_height="37dp"
+        android:background="@color/red"
+        android:text="-"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/item4Image"
+        app:layout_constraintEnd_toEndOf="@+id/item4Image"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="@+id/item4Image"
+        app:layout_constraintTop_toTopOf="@+id/item4Image"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <Button
+        android:id="@+id/minus1"
+        android:layout_width="22dp"
+        android:layout_height="37dp"
+        android:background="@color/red"
+        android:text="-"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/item1Image"
+        app:layout_constraintEnd_toEndOf="@+id/item1Image"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="@+id/item1Image"
+        app:layout_constraintTop_toTopOf="@+id/item1Image"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <TextView
+        android:id="@+id/item2Text"
+        android:layout_width="36dp"
+        android:layout_height="45dp"
+        android:textSize="20dp"
+        android:textColor="@color/yellow"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/item2Image"
+        app:layout_constraintEnd_toEndOf="@+id/plus2"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/minus2"
+        app:layout_constraintTop_toTopOf="@+id/item2Image"
+        app:layout_constraintVertical_bias="1.0"
+        android:gravity="center_horizontal" />
+
+    <ImageButton
+        android:id="@+id/addToCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item4Image"
+        app:layout_constraintVertical_bias="0.086"
+        app:srcCompat="@drawable/addtocart" />
+</androidx.constraintlayout.widget.ConstraintLayout>

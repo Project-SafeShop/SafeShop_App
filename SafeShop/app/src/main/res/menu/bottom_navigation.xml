@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeButton"
+        android:icon="@drawable/h1"
+        android:title="Home"/>
+    <item
+        android:id="@+id/cartButton"
+        android:icon="@drawable/cart"
+        android:title="Cart"/>
+    <item
+        android:id="@+id/settingsButton"
+        android:icon="@drawable/setting"
+        android:title="Settings"/>
+</menu>
